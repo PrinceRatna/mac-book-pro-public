@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!------------- tailwind link  --------------->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+     <!--------------- main start ---------------->
+    <main>
+        <section class="w-3/4 mx-auto">
+<div class="flex flex-wrap md:flex-nowrap justify-center ">
+    <div class="m-3">
+        <img src="images/mac.png" alt="mac book">
+    </div>
+    <div class="m-3 grid grid-rows-6">
+        <div><h1 class="text-2xl font-semibold">Customize your Blue 24-inch iMac with Apple M1 chip
+        </h1>
+        <p class="font-medium">
+            Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores ,7 core CPU and 16-core neural engine 8gb unified money 256GB SSD storage .Two USB-4 ports Magic Mouse magic keyboard.
+        </p>
+        </div>
+        <div class="pt-4">
+            <h1 class="font-semibold">Memory</h1>
+            <button class="rounded  border-black border px-2 my-1" id="eight-gb-memory">8GB unified memory</button>
+            <button class="rounded border-black border px-2 my-1" id="sixteen-gb-memory">16GB unified memory</button>
+        </div>
+        <div>
+            <h1 class="font-semibold">Storage</h1>
+            <button class="rounded  border-black border px-2 my-1" id="small-storage">256GB SSD storage</button> 
+            <button class="rounded  border-black border px-2 my-1"id="medium-storage">512GB SSD storage</button> 
+            <button class="rounded  border-black border px-2 my-1" id="large-storage">1TB SSD storage</button>
+        </div>
+        <div><h1 class="font-semibold">Choose your delivery option</h1>
+            <button class="rounded  border-black border px-2 my-1" id="late-delivery"> Friday, Aug 25 Free Prime Delivery</button>
+            <button class="rounded border-black border px-2 my-1" id="early-delivery">friday, Aug 21 Delivery charge $20</button>
+        </div>
+        <div class="w-3/4">
+                    <div class="flex justify-between font-semibold ">
+                        <h1>Best Price</h1>
+                        <p>$ <span>1299</span></p>
+                    </div>
+                        <hr class="max-w-5xl">
+                    <div class="flex justify-between font-semibold ">
+                        <h1 >Extra Memory Cost</h1>
+                        <p>$ <span id="extra-memory-cost">0</span></p>
+                    </div>
+                        <hr class="max-w-5xl">
+                    <div class="flex justify-between font-semibold ">
+                        <h1>Extra Storage Cost</h1>
+                        <p>$ <span id="extra-storage-cost">0</span></p>
+                    </div>
+                        <hr class="max-w-5xl">
+                    <div class="flex justify-between font-semibold ">
+                        <h1>Delivery Charge</h1>
+                        <p>$ <span id="delivery-charge">0</span></p>
+                    </div>
+                        <hr class="max-w-5xl border-black border-1" >
+
+                    <div class="flex justify-between font-semibold ">
+                        <h1>Total Price</h1>
+                        <p>$ <span id="total-price">1299</span></p>
+                    </div>     
+        </div>
+        <div>
+            <h1>Add promo code</h1>
+         <input type="text" class="px-2 border border-gray-300 my-1" id="promocode">
+         <button class="my-1 w-16 text-white font-semibold rounded p-1 bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500 "id="apply-button">Apply</button>
+        </div>
+
+    </div>
+</div>
+<hr class="border-gray-300 border-1">
+ <h1 class="text-center font-semibold mb-10 text-2xl" >Total: $<span id="total-percentage-amount">1299</span></h1>
+        </section>
+    </main>
+    <!----------------- script  ---------------->
+    <script src="js/mac.js"></script>
+</body>
+</html>
